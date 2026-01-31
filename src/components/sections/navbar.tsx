@@ -131,7 +131,7 @@ const Navbar = ({ currentPage = "/" }: { currentPage: string }) => {
             </div>
             <a
               href="/contact"
-              className={`transition-opacity duration-300 ${isMenuOpen ? "pointer-events-none opacity-0" : "opacity-100"}`}
+              className={`hidden transition-opacity duration-300 sm:block ${isMenuOpen ? "pointer-events-none opacity-0" : "opacity-100"}`}
             >
               <Button className="gap-1">
                 Book a call
