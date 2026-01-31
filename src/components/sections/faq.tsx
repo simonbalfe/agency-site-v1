@@ -12,34 +12,34 @@ import SectionHeader from "../elements/section-header";
 
 const faqData = [
   {
-    question: "Is there a free version?",
+    question: "How long does it take to build an MVP?",
     answer:
-      "Yes! We offer a Free Plan with essential features. You can upgrade anytime for advanced tools and integrations.",
+      "Most MVPs are delivered in 4-12 weeks depending on complexity. We'll give you a precise timeline during our discovery call based on your specific requirements.",
   },
   {
-    question: "What apps can I integrate?",
+    question: "What technologies do you use?",
     answer:
-      "Our platform supports integration with various popular apps and services. The specific integrations available depend on your plan level.",
+      "We use modern, scalable technologies including React, Next.js, Node.js, Python, and cloud platforms like AWS and Vercel. We choose the best stack for your specific needs.",
   },
   {
-    question: "How does the AI work?",
+    question: "Do I own the code?",
     answer:
-      "Our AI technology uses advanced machine learning algorithms to analyze and process your data, providing intelligent insights and automation capabilities.",
+      "Yes, 100%. You own all the code, designs, and intellectual property we create for you. We provide full source code access and documentation for handoff.",
   },
   {
-    question: "Can I use this with a team?",
+    question: "What if I need changes after launch?",
     answer:
-      "Absolutely! Our platform is designed for both individual and team use. You can easily collaborate and share resources with team members.",
+      "Our Scale package includes 3 months of post-launch support. For other packages, we offer ongoing maintenance retainers or you can hire your own team to continue development.",
   },
   {
-    question: "Is my data safe?",
+    question: "Can you help with design too?",
     answer:
-      "We take data security seriously. All data is encrypted and stored securely following industry best practices and compliance standards.",
+      "Absolutely! Our team includes experienced UI/UX designers who create intuitive, beautiful interfaces. Design is included in all our packages.",
   },
   {
-    question: "How do I manage my subscription?",
+    question: "What's included in the discovery call?",
     answer:
-      "You can manage your subscription easily through your account dashboard, where you can upgrade, downgrade, or modify your plan settings.",
+      "We'll discuss your idea, target users, must-have features, timeline, and budget. You'll leave with a clear understanding of scope, timeline, and next steps—no obligation.",
   },
 ];
 

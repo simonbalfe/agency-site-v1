@@ -9,11 +9,11 @@ const Features = () => {
     <section id="smart-productivity" className="pt-12 lg:pt-20">
       <div className="border-y">
         <SectionHeader
-          iconTitle="Features"
-          title="Smart productivity with AI"
+          iconTitle="Services"
+          title="End-to-end MVP development"
           icon={PocketKnife}
           description={
-            "Unlock smarter productivity with features that help you manage tasks, time, and focus—seamlessly."
+            "From idea validation to launch, we handle every step of building your minimum viable product."
           }
         />
       </div>

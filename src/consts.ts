@@ -1,29 +1,29 @@
 // Place any global data in this file.
 // You can import this data from anywhere in your site by using the `import` keyword.
 
-export const SITE_TITLE = "Relative - Modern Astro Template";
+export const SITE_TITLE = "LaunchFast - MVP Development Agency";
 export const SITE_DESCRIPTION =
-  "A modern, fully featured Astro template built with Shadcn/UI, TailwindCSS and TypeScript, perfect for your next web application.";
+  "We build MVPs that validate your ideas fast. From concept to launch in weeks, not months. Expert development team focused on speed and quality.";
 
 export const SITE_METADATA = {
   title: {
     default: SITE_TITLE,
-    template: "%s | Relative",
+    template: "%s | LaunchFast",
   },
   description: SITE_DESCRIPTION,
   keywords: [
-    "Astro",
-    "React",
-    "JavaScript",
-    "TypeScript",
-    "TailwindCSS",
-    "Template",
-    "Shadcn/UI",
+    "MVP Development",
+    "Startup Agency",
+    "Product Development",
     "Web Development",
+    "Mobile Apps",
+    "Software Agency",
+    "Rapid Prototyping",
+    "Tech Startup",
   ],
-  authors: [{ name: "Relative Team" }],
-  creator: "Relative Team",
-  publisher: "relative",
+  authors: [{ name: "LaunchFast Team" }],
+  creator: "LaunchFast Team",
+  publisher: "launchfast",
   robots: {
     index: true,
     follow: true,
@@ -42,13 +42,13 @@ export const SITE_METADATA = {
   openGraph: {
     title: SITE_TITLE,
     description: SITE_DESCRIPTION,
-    siteName: "charter",
+    siteName: "LaunchFast",
     images: [
       {
         url: "/og-image.jpg",
         width: 1200,
         height: 630,
-        alt: "charter - Modern Astro Template",
+        alt: "LaunchFast - MVP Development Agency",
       },
     ],
   },

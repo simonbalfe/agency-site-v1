@@ -11,44 +11,44 @@ import SectionHeader from "../elements/section-header";
 
 const TIMELINE_ITEMS = [
   {
-    title: "Get Organized",
+    title: "Discovery Call",
     description:
-      "Start strong by syncing your calendars and tools like Google Calendar, Trello, and Slack in one place.",
+      "We start with a deep dive into your vision, target users, and business goals to understand exactly what you need.",
     icon: LayoutList,
     image: {
       src: "/images/homepage/accelerate-1.png",
-      alt: "Get Organized",
+      alt: "Discovery Call",
     },
   },
   {
-    title: "Track Progress",
+    title: "Design & Prototype",
     description:
-      "Monitor your performance with real-time dashboards and detailed analytics. Stay ahead with automated reports.",
+      "Our designers create wireframes and interactive prototypes so you can validate the user experience before we build.",
     icon: LocateFixed,
     image: {
       src: "/images/homepage/accelerate-2.png",
-      alt: "Track Progress",
+      alt: "Design & Prototype",
     },
     reverse: true,
   },
   {
-    title: "Collaborate Seamlessly",
+    title: "Development Sprints",
     description:
-      "Empower your team with shared dashboards and instant communication tools. Keep everyone aligned with integrated platforms.",
+      "We build your MVP in focused sprints with weekly demos, keeping you involved and ensuring we stay on track.",
     icon: Users,
     image: {
       src: "/images/homepage/accelerate-3.png",
-      alt: "Collaborate Seamlessly",
+      alt: "Development Sprints",
     },
   },
   {
-    title: "Integrate Seamlessly",
+    title: "Launch & Iterate",
     description:
-      "Integrate seamlessly across multiple platforms to enable smooth, automated task handovers.",
+      "We deploy your product, set up analytics, and support you through launch with ongoing iteration based on user feedback.",
     icon: Cpu,
     image: {
       src: "/images/homepage/accelerate-4.png",
-      alt: "Integrate Seamlessly",
+      alt: "Launch & Iterate",
     },
     reverse: true,
   },
@@ -59,11 +59,11 @@ const Accelerate = () => {
     <section id="accelerate-planning" className="">
       <div className="border-b">
         <SectionHeader
-          iconTitle="Accelerate"
-          title="Accelerate your planning journey"
+          iconTitle="Process"
+          title="From idea to launch in 4 steps"
           icon={Rocket}
           description={
-            "Take control of your workflow step-by-step with smart tools, actionable insights, and seamless collaboration"
+            "Our proven development process delivers quality products fast with complete transparency at every stage"
           }
         />
       </div>

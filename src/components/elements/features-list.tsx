@@ -6,23 +6,23 @@ import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 
 const FEATURES_DATA = [
   {
-    title: "Smart Task Management",
+    title: "Product Strategy",
     description:
-      "Create, prioritize, and delegate tasks effortlessly. AI helps you identify what matters most with smart recommendations and automated workflows.",
+      "We help you define your MVP scope, identify core features, and create a roadmap that gets you to market fast while maximizing value for users.",
     icon: SquarePen,
     image: "/images/homepage/features-1.png",
   },
   {
-    title: "Automated Scheduling",
+    title: "Rapid Development",
     description:
-      "Let AI find the best time slots for meetings, reminders, and tasks based on your calendar and working habits. Stay organized without the hassle.",
+      "Our experienced team uses modern tech stacks and agile methodologies to build your product quickly without sacrificing quality or scalability.",
     icon: CalendarClock,
     image: "/images/homepage/features-2.png",
   },
   {
-    title: "Personalized Insights",
+    title: "Launch Support",
     description:
-      "Track your productivity with AI-powered insights. Get weekly summaries and actionable tips to improve your workflow and manage workloads better.",
+      "From deployment to user onboarding, we ensure a smooth launch. Get analytics setup, performance monitoring, and post-launch iteration support.",
     icon: ChartBar,
     image: "/images/homepage/features-3.png",
   },

@@ -9,11 +9,11 @@ const Adaptive = () => {
     <section id="adaptive-workflows" className="">
       <div className="border-b">
         <SectionHeader
-          iconTitle="Adaptive"
-          title="Stay agile with adaptive workflows"
+          iconTitle="Tech Stack"
+          title="Modern technologies, proven results"
           icon={Shapes}
           description={
-            "AI streamlines your processes to adjust as priorities shift."
+            "We use cutting-edge tools and frameworks to build scalable, maintainable products."
           }
         />
       </div>

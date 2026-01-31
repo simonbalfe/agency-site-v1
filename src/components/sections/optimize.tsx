@@ -9,11 +9,11 @@ const Optimize = () => {
     <section id="optimized-scheduling" className="">
       <div className="border-b">
         <SectionHeader
-          iconTitle="Optimize"
-          title="Optimize every aspect of your day"
+          iconTitle="Expertise"
+          title="We specialize in what matters"
           icon={Eye}
           description={
-            "Achieve seamless productivity with intelligent scheduling, insightful analytics, and effortless integrations."
+            "Focus on building products that users love with our expertise in web apps, mobile apps, and SaaS platforms."
           }
         />
       </div>

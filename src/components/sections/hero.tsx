@@ -13,15 +13,15 @@ export default function Hero() {
         </BorderedSection>
         <div className="container mx-auto pb-12 pt-16 text-center md:pt-20 lg:pt-28">
           <h1 className="mx-auto max-w-[500px] text-balance text-[2.5rem] leading-[1.2] tracking-[-1.6px] md:text-[4rem] md:!leading-[1.15] md:tracking-[-4.32px] lg:text-7xl">
-            Say Goodbye to Task Overload
+            Launch Your MVP in Weeks, Not Months
           </h1>
           <p className="text-muted-foreground mx-auto mt-5 max-w-[500px] leading-[1.5] tracking-[-0.32px] md:mt-6">
-            Prioritize, automate, and stay ahead—AI simplifies your tasks so you
-            can focus on what matters most.
+            We turn your ideas into market-ready products. Expert developers,
+            proven process, rapid delivery.
           </p>
           <Button asChild className="mt-6 gap-1 md:mt-8 lg:mt-10">
-            <a href="/dashboard">
-              Get started
+            <a href="/contact">
+              Book a call
               <ChevronRight className="size-4" />
             </a>
           </Button>

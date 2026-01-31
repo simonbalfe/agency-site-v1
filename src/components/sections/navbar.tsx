@@ -23,28 +23,28 @@ const Navbar = ({ currentPage = "/" }: { currentPage: string }) => {
 
   const navLinks = [
     {
-      label: "Features",
-      href: "#features",
+      label: "Services",
+      href: "#services",
       dropdownItems: [
         {
-          title: "Smart Productivity",
+          title: "MVP Development",
           href: "/#smart-productivity",
-          description: "Boost your productivity with AI-powered insights",
+          description: "End-to-end product development from idea to launch",
         },
         {
-          title: "Adaptive Workflows",
+          title: "Tech Stack",
           href: "/#adaptive-workflows",
-          description: "Customize and automate your work processes",
+          description: "Modern technologies for scalable products",
         },
         {
-          title: "Optimized Scheduling",
+          title: "Expertise",
           href: "/#optimized-scheduling",
-          description: "Intelligent time management and scheduling",
+          description: "Web apps, mobile apps, and SaaS platforms",
         },
         {
-          title: "Accelerate Planning",
+          title: "Our Process",
           href: "/#accelerate-planning",
-          description: "Strategic planning tools for faster execution",
+          description: "From discovery to launch in 4 simple steps",
         },
       ],
     },
@@ -68,7 +68,7 @@ const Navbar = ({ currentPage = "/" }: { currentPage: string }) => {
               height={32}
               className="dark:invert"
             />
-            <span className="leading-0 text-2xl font-semibold">Relative</span>
+            <span className="leading-0 text-2xl font-semibold">LaunchFast</span>
           </a>
 
           {/* Desktop Navigation */}
@@ -129,18 +129,12 @@ const Navbar = ({ currentPage = "/" }: { currentPage: string }) => {
             >
               <ThemeToggle />
             </div>
-            <a href="/login" className="hidden lg:block">
-              <Button variant="outline" className="gap-1">
-                Login
-                <ChevronRight className="size-4" />
-              </Button>
-            </a>
             <a
-              href="/signup"
+              href="/contact"
               className={`transition-opacity duration-300 ${isMenuOpen ? "pointer-events-none opacity-0" : "opacity-100"}`}
             >
               <Button className="gap-1">
-                Sign up
+                Book a call
                 <ChevronRight className="size-4" />
               </Button>
             </a>
@@ -180,21 +174,12 @@ const Navbar = ({ currentPage = "/" }: { currentPage: string }) => {
       >
         <div className="mt-8 space-y-2">
           <a
-            href="/signup"
+            href="/contact"
             className="block"
             onClick={() => setIsMenuOpen(false)}
           >
             <Button size="sm" className="w-full">
-              Sign up
-            </Button>
-          </a>
-          <a
-            href="/login"
-            className="block"
-            onClick={() => setIsMenuOpen(false)}
-          >
-            <Button size="sm" className="w-full" variant="outline">
-              Login
+              Book a call
             </Button>
           </a>
         </div>

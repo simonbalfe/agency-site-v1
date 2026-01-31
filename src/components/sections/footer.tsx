@@ -2,17 +2,18 @@ import { Instagram, Twitter, Linkedin } from "lucide-react";
 
 const sections = [
   {
-    title: "Product",
+    title: "Services",
     links: [
-      { name: "Features", href: "#" },
-      { name: "Pricing", href: "#" },
+      { name: "MVP Development", href: "#" },
+      { name: "Pricing", href: "/pricing" },
     ],
   },
   {
     title: "Company",
     links: [
+      { name: "About", href: "/about" },
       { name: "Contact", href: "/contact" },
-      { name: "Faq", href: "#" },
+      { name: "FAQ", href: "/faq" },
     ],
   },
   {
@@ -34,7 +35,7 @@ const Footer = () => {
               height={32}
               className="dark:invert"
             />
-            <span className="leading-0 text-2xl font-semibold">Relative</span>
+            <span className="leading-0 text-2xl font-semibold">LaunchFast</span>
           </a>
         </div>
         <div className="flex flex-1 justify-between gap-8 max-sm:flex-col">
@@ -73,7 +74,7 @@ const Footer = () => {
         </div>
       </div>
       <div className="text-muted-foreground-subtle container border-x border-b border-t py-4 text-sm tracking-[-0.28px] lg:py-8">
-        <p>© {new Date().getFullYear()} Relative. All rights reserved.</p>
+        <p>© {new Date().getFullYear()} LaunchFast. All rights reserved.</p>
       </div>
       <div className="container h-6 border-x"></div>
     </footer>

@@ -1,25 +1,25 @@
 const DATA = [
   {
-    subTitle: "Unified Scheduling",
-    title: "Unified Scheduling",
+    subTitle: "Frontend",
+    title: "React & Next.js",
     description:
-      "Keep all your appointments and events in sync with seamless cross-platform calendar connectivity.",
+      "Build fast, responsive user interfaces with the most popular frontend frameworks used by top companies.",
     icon: "CircleHelp",
     image: "/images/homepage/adaptive-1.png",
   },
   {
-    subTitle: "Insightful Performance",
-    title: "Insightful Performance",
+    subTitle: "Backend",
+    title: "Node.js & Python",
     description:
-      "Get clear, real-time analytics tracking your progress, key milestones, focus hours, and completed tasks.",
+      "Scalable server architecture that handles growth from your first users to millions, with clean APIs.",
     icon: "Volume2",
     image: "/images/homepage/adaptive-2.png",
   },
   {
-    subTitle: "Effortless Tool Integrations",
-    title: "Effortless Tool Integrations",
+    subTitle: "Infrastructure",
+    title: "Cloud Native",
     description:
-      "Link your favorite apps and services to streamline work without switching between platforms.",
+      "Deploy on AWS, Vercel, or your preferred cloud with CI/CD pipelines and infrastructure as code.",
     icon: "Lightbulb",
     image: "/images/homepage/adaptive-3.png",
   },

@@ -14,10 +14,10 @@ const testimonials: TestimonialProps[] = [
       height: 36,
     },
     quote:
-      "Our team at Zerostatic relies heavily on automation, and this app takes it to another level. It&apos;s like having a virtual assistant built right into my workflow.",
+      "LaunchFast delivered our MVP in just 6 weeks. The quality exceeded our expectations and we were able to raise our seed round with the product they built.",
     author: {
       name: "Abdulsalam Abdulsalam",
-      role: "Product Designer, Zerostatic",
+      role: "CEO & Founder, Zerostatic",
       image: "/images/testimonials/1.png",
     },
   },
@@ -29,10 +29,10 @@ const testimonials: TestimonialProps[] = [
       height: 36,
     },
     quote:
-      "I especially love the seamless calendar integrations and advanced task management features keep everyone aligned and organized.",
+      "Their team understood our vision from day one. The communication was excellent and they delivered exactly what we needed to validate our idea.",
     author: {
       name: "Emma Lee",
-      role: "Product Manager, Notion",
+      role: "Product Manager",
       image: "/images/testimonials/2.png",
     },
   },
@@ -44,10 +44,10 @@ const testimonials: TestimonialProps[] = [
       height: 36,
     },
     quote:
-      "We needed a productivity app that could grow with our team&apos;s evolving needs, this has been the perfect fit. The automation tools have saved us hours.",
+      "We went from concept to paying customers in under 2 months. The LaunchFast team was instrumental in helping us move fast without breaking things.",
     author: {
       name: "Ryan Chen",
-      role: "Operations Lead, Slack",
+      role: "Founder & CTO",
       image: "/images/testimonials/3.png",
     },
   },
@@ -59,10 +59,10 @@ const testimonials: TestimonialProps[] = [
       height: 36,
     },
     quote:
-      "This platform has been invaluable for managing projects across distributed teams. Its integration with our existing tools makes setup easy.",
+      "The codebase they delivered was clean, well-documented, and easy for our in-house team to take over. That handoff was seamless.",
     author: {
       name: "Ryan Patel",
-      role: "Engineering Manager, GitHub",
+      role: "Engineering Manager",
       image: "/images/testimonials/4.png",
     },
   },
@@ -74,10 +74,10 @@ const testimonials: TestimonialProps[] = [
       height: 36,
     },
     quote:
-      "As a designer, I appreciate how intuitive and visually appealing this app is. It simplifies task management without sacrificing powerful features.",
+      "As a non-technical founder, I appreciated how they guided me through the process. They translated my ideas into a product users love.",
     author: {
       name: "Carlos Diaz",
-      role: "Design Lead, Figma",
+      role: "Founder & CEO",
       image: "/images/testimonials/5.png",
     },
   },
@@ -89,10 +89,10 @@ const testimonials: TestimonialProps[] = [
       height: 36,
     },
     quote:
-      "The smart reminders and automated scheduling keep our team focused and on track. We&apos;ve also found the collaborative features to be very helpful.",
+      "We&apos;ve worked with several dev agencies before, but LaunchFast stands out. They actually care about the success of your product, not just billing hours.",
     author: {
       name: "Matthew Kim",
-      role: "Content Strategist, Loom",
+      role: "Head of Product",
       image: "/images/testimonials/6.png",
     },
   },
@@ -103,10 +103,10 @@ const Testimonials = ({ withBorders = true }: { withBorders?: boolean }) => {
     <section className="">
       <div className={withBorders ? "border-b" : ""}>
         <SectionHeader
-          iconTitle="lovin' it"
-          title="What industry experts are saying"
+          iconTitle="Success Stories"
+          title="What founders are saying"
           icon={Handshake}
-          description="Trusted by Professionals from Leading Tech Companies"
+          description="Trusted by startups to bring their ideas to life"
           className={withBorders ? "" : "border-none"}
         />
       </div>

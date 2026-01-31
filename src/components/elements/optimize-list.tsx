@@ -7,23 +7,23 @@ import { cn } from "@/lib/utils";
 
 const OPTIMIZE_DATA = [
   {
-    title: "Unified Scheduling",
+    title: "Web Applications",
     description:
-      "Keep all your appointments and events in sync with seamless cross-platform calendar connectivity.",
+      "Full-stack web apps with responsive design, real-time features, and seamless user experiences.",
     icon: CircleHelp,
     image: "/images/homepage/optimize-1.png",
   },
   {
-    title: "Insightful Performance",
+    title: "Mobile Apps",
     description:
-      "Get clear, real-time analytics tracking your progress, key milestones, focus hours, and completed tasks.",
+      "Native and cross-platform mobile apps for iOS and Android that feel fast and polished.",
     icon: Volume2,
     image: "/images/homepage/optimize-2.png",
   },
   {
-    title: "Effortless Tool Integrations",
+    title: "SaaS Platforms",
     description:
-      "Link your favorite apps and services to streamline work without switching between platforms.",
+      "Subscription-based products with billing, user management, analytics, and everything you need to scale.",
     icon: Lightbulb,
     image: "/images/homepage/optimize-3.png",
   },

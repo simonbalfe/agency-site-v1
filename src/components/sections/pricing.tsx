@@ -39,83 +39,83 @@ interface FeatureSection {
 const pricingPlans: PricingPlan[] = [
   {
     icon: Rocket,
-    name: "Basic plan",
+    name: "Starter MVP",
     price: {
-      monthly: 19,
-      yearly: 199,
+      monthly: 15,
+      yearly: 15,
     },
     features: [
-      "Basic task management tools",
-      "Calendar sync with limited integrations",
-      "Access to 1 dashboard for tracking tasks",
-      "Limited AI suggestions and insights",
-      "Basic support and community access",
+      "4-6 week delivery",
+      "Core features only",
+      "Responsive web app",
+      "Basic analytics setup",
+      "2 rounds of revisions",
     ],
   },
   {
     icon: Briefcase,
-    name: "Business plan",
+    name: "Growth MVP",
     price: {
-      monthly: 29,
-      yearly: 299,
+      monthly: 30,
+      yearly: 30,
     },
     features: [
-      "All Free Plan features, plus:",
-      "Unlimited task lists",
-      "Advanced calendar sync",
-      "AI-driven insights",
-      "Access to custom dashboards",
-      "Priority email support",
+      "6-8 week delivery",
+      "Advanced features",
+      "Web + mobile apps",
+      "Full analytics & monitoring",
+      "User authentication",
+      "Payment integration",
     ],
   },
   {
     icon: Building,
-    name: "Enterprise plan",
+    name: "Scale MVP",
     price: {
-      monthly: 49,
-      yearly: 499,
+      monthly: 50,
+      yearly: 50,
     },
     features: [
-      "All Pro Plan features, plus:",
-      "Dedicated account manager",
-      "Custom integrations",
-      "Real-time collaboration",
-      "Role-based permissions",
-      "24/7 priority support",
+      "8-12 week delivery",
+      "Complex features & integrations",
+      "Multi-platform apps",
+      "Admin dashboard",
+      "API development",
+      "3 months post-launch support",
     ],
   },
 ];
 
 const comparisonFeatures: FeatureSection[] = [
   {
-    category: "Core Tools",
+    category: "Development",
     features: [
       {
-        name: "Task Management",
-        basic: "10",
-        business: "25",
+        name: "Core Features",
+        basic: "5",
+        business: "10",
         enterprise: "Unlimited",
       },
       {
-        name: "Calendar Sync",
+        name: "Responsive Design",
         basic: true,
         business: true,
         enterprise: true,
       },
       {
-        name: "Reminders",
+        name: "User Authentication",
         basic: true,
         business: true,
         enterprise: true,
       },
       {
-        name: "Collaboration",
+        name: "Mobile Apps",
         basic: false,
         business: true,
         enterprise: true,
       },
       {
-        name: "Notifications",
+        name: "Admin Dashboard",
         basic: false,
         business: false,
         enterprise: true,
@@ -123,34 +123,34 @@ const comparisonFeatures: FeatureSection[] = [
     ],
   },
   {
-    category: "Productivity Insights",
+    category: "Integrations",
     features: [
       {
-        name: "Analytics",
-        basic: "10 25 Unlimited",
-        business: "10 25 Unlimited",
-        enterprise: "10 25 Unlimited",
+        name: "Third-party APIs",
+        basic: "1",
+        business: "3",
+        enterprise: "Unlimited",
       },
       {
-        name: "Reports",
+        name: "Analytics Setup",
         basic: true,
         business: true,
         enterprise: true,
       },
       {
-        name: "Time Tracking",
-        basic: true,
-        business: true,
-        enterprise: true,
-      },
-      {
-        name: "Goal Tracking",
+        name: "Payment Processing",
         basic: false,
         business: true,
         enterprise: true,
       },
       {
-        name: "Trends",
+        name: "Email Services",
+        basic: false,
+        business: true,
+        enterprise: true,
+      },
+      {
+        name: "Custom API",
         basic: false,
         business: false,
         enterprise: true,
@@ -158,34 +158,34 @@ const comparisonFeatures: FeatureSection[] = [
     ],
   },
   {
-    category: "Workflow Automation",
+    category: "Support & Delivery",
     features: [
       {
-        name: "Task Automation",
-        basic: "10",
-        business: "25",
+        name: "Revision Rounds",
+        basic: "2",
+        business: "4",
         enterprise: "Unlimited",
       },
       {
-        name: "Recurring Tasks",
+        name: "Weekly Updates",
         basic: true,
         business: true,
         enterprise: true,
       },
       {
-        name: "Integrations",
+        name: "Code Handoff",
         basic: true,
         business: true,
         enterprise: true,
       },
       {
-        name: "API Access",
+        name: "Documentation",
         basic: false,
         business: true,
         enterprise: true,
       },
       {
-        name: "Workflow Templates",
+        name: "Post-launch Support",
         basic: false,
         business: false,
         enterprise: true,
@@ -204,10 +204,10 @@ const Pricing = ({ withBorders = true }: { withBorders?: boolean }) => {
           className={
             withBorders ? "" : "border-none lg:items-center lg:text-center"
           }
-          iconTitle="Spenders Lounge"
-          title="Pricing for everyone"
+          iconTitle="Packages"
+          title="Transparent pricing"
           icon={BadgeDollarSign}
-          description="Choose the Plan that Fits Your Productivity Needs"
+          description="Fixed-price packages tailored to your MVP needs"
         />
       </div>
 
@@ -300,16 +300,11 @@ const PriceDisplay = ({
   <>
     <div className="flex items-baseline font-medium">
       <span className="text-[3.5rem] leading-[120%] tracking-[-3.92px]">
-        ${isMonthly ? plan.price.monthly : plan.price.yearly}
-      </span>
-      <span className="text-muted-foreground-subtle text-2xl tracking-[-0.96px]">
-        {isMonthly ? "/mo" : "/yr"}
+        ${plan.price.monthly}K
       </span>
     </div>
     <p className="text-muted-foreground">
-      {isMonthly
-        ? `or $${plan.price.yearly} yearly`
-        : `or $${plan.price.monthly}/mo monthly`}
+      Fixed price, no surprises
     </p>
   </>
 );

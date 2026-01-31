@@ -25,7 +25,7 @@ const Partners = () => {
   return (
     <section className="container flex flex-wrap items-center justify-between gap-12 py-12 lg:py-20">
       <p className="text-primary text-lg leading-[140%] tracking-[-0.32px]">
-        Used by the world&apos;s leading companies
+        Trusted by startups backed by top investors
       </p>
       <div className="flex flex-wrap items-center gap-x-8 gap-y-6 opacity-70 grayscale lg:gap-[60px]">
         {partners.map((partner) => (
