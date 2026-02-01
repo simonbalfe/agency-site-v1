@@ -3,8 +3,7 @@ title: "From MVP to Scale: When and How to Iterate"
 description: "Your MVP launched successfully—now what? Learn the critical strategies for iterating on your product, knowing when to pivot, and scaling your startup to the next level."
 pubDate: "Feb 01 2026"
 image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&auto=format&fit=crop&q=60"
-authorImage: "/avatar/avatar1.png"
-authorName: "John Doe"
+authorName: "Simon Balfe"
 ---
 
 Congratulations—you've launched your MVP and you have users. Now comes the hard part: figuring out what to build next, what to ignore, and when to make the tough call to pivot. Here's how to navigate the post-MVP phase successfully.

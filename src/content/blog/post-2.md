@@ -3,8 +3,7 @@ title: "The Lean MVP: Validating Ideas Before You Build"
 description: "Don't waste months building something nobody wants. Learn how to validate your startup idea before writing a single line of code using lean methodology."
 pubDate: "Jan 22 2026"
 image: "https://images.unsplash.com/photo-1553028826-f4804a6dba3b?w=800&auto=format&fit=crop&q=60"
-authorImage: "/avatar/avatar1.png"
-authorName: "John Doe"
+authorName: "Simon Balfe"
 ---
 
 The biggest risk in building a startup isn't technical failure—it's building something nobody wants. Before you invest months of development time, you need to validate that your idea solves a real problem for real people. Here's how to do it the lean way.

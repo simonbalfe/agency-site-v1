@@ -3,8 +3,7 @@ title: "Building Your First MVP: A Step-by-Step Guide"
 description: "Learn the essential steps to transform your idea into a working minimum viable product. From defining core features to launching quickly, this guide covers everything you need to build your first MVP."
 pubDate: "Jan 15 2026"
 image: "https://images.unsplash.com/photo-1531403009284-440f080d1e12?w=800&auto=format&fit=crop&q=60"
-authorImage: "/avatar/avatar1.png"
-authorName: "John Doe"
+authorName: "Simon Balfe"
 ---
 
 Building a Minimum Viable Product (MVP) is one of the most crucial steps in launching a successful startup. It's the bridge between an idea and a real product that customers can use, test, and provide feedback on. Let's explore how to build your first MVP effectively.

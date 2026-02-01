@@ -3,8 +3,7 @@ title: "Choosing the Right Tech Stack for Your MVP"
 description: "The technology choices you make for your MVP can mean the difference between launching in weeks or months. Learn how to select the right tools for speed, scalability, and success."
 pubDate: "Jan 28 2026"
 image: "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=800&auto=format&fit=crop&q=60"
-authorImage: "/avatar/avatar2.png"
-authorName: "Jane Doe"
+authorName: "Simon Balfe"
 ---
 
 When building an MVP, your tech stack decisions carry significant weight. Choose wisely, and you'll ship in weeks. Choose poorly, and you might spend months fighting your tools instead of solving customer problems.
