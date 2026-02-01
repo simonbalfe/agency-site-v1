@@ -5,13 +5,11 @@ const sections = [
     title: "Services",
     links: [
       { name: "MVP Development", href: "#" },
-      { name: "Pricing", href: "/pricing" },
     ],
   },
   {
     title: "Company",
     links: [
-      { name: "About", href: "/about" },
       { name: "Contact", href: "/contact" },
       { name: "FAQ", href: "/faq" },
     ],

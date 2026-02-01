@@ -1,19 +1,19 @@
 import React from "react";
 
-import { Shapes } from "lucide-react";
+import { Code2 } from "lucide-react";
 import SectionHeader from "../elements/section-header";
 import AdaptiveList from "../elements/adaptive-list";
 
 const Adaptive = () => {
   return (
-    <section id="adaptive-workflows" className="">
+    <section id="tech-stack" className="">
       <div className="border-b">
         <SectionHeader
           iconTitle="Tech Stack"
-          title="Modern technologies, proven results"
-          icon={Shapes}
+          title="Built with modern tools"
+          icon={Code2}
           description={
-            "We use cutting-edge tools and frameworks to build scalable, maintainable products."
+            "We use industry-standard technologies to build fast, scalable products."
           }
         />
       </div>
@@ -22,7 +22,7 @@ const Adaptive = () => {
         <AdaptiveList />
       </div>
 
-      <div className="h-8 w-full border-y md:h-12 lg:h-[112px]">
+      <div className="h-8 w-full border-y md:h-12 lg:h-[56px]">
         <div className="container h-full w-full border-x"></div>
       </div>
     </section>

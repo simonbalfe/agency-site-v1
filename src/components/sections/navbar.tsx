@@ -27,19 +27,19 @@ const Navbar = ({ currentPage = "/" }: { currentPage: string }) => {
       href: "#services",
       dropdownItems: [
         {
-          title: "MVP Development",
-          href: "/#smart-productivity",
-          description: "End-to-end product development from idea to launch",
+          title: "Web Applications",
+          href: "/#services",
+          description: "Full-stack web apps with modern frameworks",
         },
         {
-          title: "Tech Stack",
-          href: "/#adaptive-workflows",
-          description: "Modern technologies for scalable products",
+          title: "Mobile Apps",
+          href: "/#services",
+          description: "iOS and Android apps that feel native",
         },
         {
-          title: "Expertise",
-          href: "/#optimized-scheduling",
-          description: "Web apps, mobile apps, and SaaS platforms",
+          title: "Automations",
+          href: "/#services",
+          description: "Custom integrations and workflow automation",
         },
         {
           title: "Our Process",
@@ -48,8 +48,6 @@ const Navbar = ({ currentPage = "/" }: { currentPage: string }) => {
         },
       ],
     },
-    { label: "About us", href: "/about" },
-    { label: "Pricing", href: "/pricing" },
     { label: "FAQ", href: "/faq" },
     { label: "Blog", href: "/blog" },
     { label: "Contact", href: "/contact" },

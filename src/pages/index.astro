@@ -4,10 +4,8 @@ import { SITE_TITLE, SITE_DESCRIPTION } from '../consts';
 
 import Testimonials from '@/components/sections/testimonials.astro';
 import Hero from '@/components/sections/hero';
-import Partners from '@/components/sections/partners';
-import Features from '@/components/sections/features';
-import Adaptive from '@/components/sections/adaptive';
 import Optimize from '@/components/sections/optimize';
+import Adaptive from '@/components/sections/adaptive';
 import Accelerate from '@/components/sections/accelerate';
 import Pricing from '@/components/sections/pricing';
 import Faq from '@/components/sections/faq';
@@ -15,10 +13,8 @@ import Faq from '@/components/sections/faq';
 
 <DefaultLayout title={SITE_TITLE} description={SITE_DESCRIPTION}>
   <Hero />
-  <Partners />
-  <Features client:only='react' />
+  <Optimize />
   <Adaptive />
-  <Optimize client:only='react'/>
   <Accelerate />
   <Testimonials />
   <Pricing />
