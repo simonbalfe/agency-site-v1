@@ -1,33 +1,154 @@
 ---
-title: "Using MDX"
-description: "MDX is a special flavor of Markdown that supports embedded JavaScript & JSX syntax"
-pubDate: "Jun 01 2024"
-image: "https://images.unsplash.com/photo-1737386385296-f3e58b8cf21d?q=80&w=1286&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+title: "10 Common MVP Mistakes and How to Avoid Them"
+description: "Learn from the failures of others. These are the most common mistakes founders make when building their first MVP—and how you can avoid them."
+pubDate: "Feb 01 2026"
+image: "https://images.unsplash.com/photo-1504868584819-f8e8b4b6d7e3?w=800&auto=format&fit=crop&q=60"
 authorImage: "/avatar/avatar2.png"
 authorName: "Jane Doe"
 ---
 
-This theme comes with the [@astrojs/mdx](https://docs.astro.build/en/guides/integrations-guide/mdx/) integration installed and configured in your `astro.config.mjs` config file. If you prefer not to use MDX, you can disable support by removing the integration from your config file.
+After working with hundreds of startups, we've seen the same mistakes repeated over and over. The good news? These mistakes are entirely avoidable. Here are the top 10 MVP mistakes and how to sidestep them.
 
-## Why MDX?
+## 1. Building Before Validating
 
-MDX is a special flavor of Markdown that supports embedded JavaScript & JSX syntax. This unlocks the ability to [mix JavaScript and UI Components into your Markdown content](https://docs.astro.build/en/guides/markdown-content/#mdx-features) for things like interactive charts or alerts.
+**The Mistake**: Spending months building a product based on assumptions, only to discover no one wants it.
 
-If you have existing content authored in MDX, this integration will hopefully make migrating to Astro a breeze.
+**The Fix**: Before writing any code:
+- Interview 20+ potential customers
+- Create a landing page and measure conversion
+- Try selling the solution manually first
 
-## Example
+Time spent validating is never wasted. Time spent building the wrong thing always is.
 
-Here is how you import and use a UI component inside of MDX.  
-When you open this page in the browser, you should see the clickable button below.
+## 2. Too Many Features
+
+**The Mistake**: Trying to build a "complete" product with every feature you can imagine.
+
+**The Fix**: Ruthlessly cut features. Ask yourself:
+- Can we launch without this?
+- Does this directly solve the core problem?
+- Will users complain if it's missing?
+
+If the answer to all three is "no," cut it.
+
+> "Perfection is achieved not when there is nothing more to add, but when there is nothing left to take away." — Antoine de Saint-Exupéry
+
+## 3. Ignoring Unit Economics
+
+**The Mistake**: Acquiring users at any cost without understanding if the business can be profitable.
+
+**The Fix**: Know your numbers from day one:
+
+| Metric | What It Means | Target |
+|--------|---------------|--------|
+| CAC | Cost to acquire customer | < LTV/3 |
+| LTV | Lifetime value | > 3× CAC |
+| Payback | Months to recover CAC | < 12 |
+
+Even if you're not monetizing yet, model these numbers.
+
+## 4. Chasing Vanity Metrics
+
+**The Mistake**: Celebrating signups and page views while ignoring activation and retention.
+
+**The Fix**: Focus on metrics that correlate with business success:
+
+- ❌ Total signups
+- ✅ Activated users (completed key action)
+
+- ❌ Page views
+- ✅ Time spent on core features
+
+- ❌ App downloads
+- ✅ Weekly active users
+
+## 5. Building for Scale Too Early
+
+**The Mistake**: Implementing microservices, Kubernetes, and complex architecture for an app with 10 users.
+
+**The Fix**: Your infrastructure needs to support learning, not scale. A monolith with a good database will take you further than you think. Optimize for iteration speed, not theoretical throughput.
+
+```javascript
+// This is fine for your MVP
+const app = express()
+app.use(cors())
+app.use(express.json())
+
+// You don't need Kubernetes yet
+app.listen(3000)
+```
+
+## 6. Not Launching Soon Enough
+
+**The Mistake**: Waiting until everything is "ready" before letting users see the product.
+
+**The Fix**: Launch when you're embarrassed. If you're not embarrassed by v1, you waited too long.
+
+Real user feedback beats hypothetical improvements every time.
+
+## 7. Building in a Vacuum
+
+**The Mistake**: Going dark for months, emerging with a finished product that misses the mark.
+
+**The Fix**: Share progress continuously:
+- Weekly demos to potential users
+- Public building on social media
+- Beta users from day one
+
+The best products are shaped by users, not just built for them.
+
+## 8. Copying Competitors Instead of Customers
+
+**The Mistake**: Building features because competitors have them, not because users need them.
+
+**The Fix**: Your competitors built for their users, not yours. Focus on:
+- What your users specifically need
+- Gaps competitors aren't addressing
+- Your unique insight into the problem
+
+## 9. Neglecting Onboarding
+
+**The Mistake**: Assuming users will figure out how to use your product.
+
+**The Fix**: Onboarding is your most important feature. Users who don't activate never become customers.
+
+- Guide new users to their first "aha moment"
+- Remove friction from signup flows
+- Celebrate early wins
 
 import HeaderLink from "@/components/elements/header-link";
 
-<HeaderLink href="#" onclick="alert('clicked!')">
-  Embedded component in MDX
-</HeaderLink>
+<div className="my-8 p-6 bg-muted rounded-lg">
+  <p className="font-medium mb-4">Want to see great onboarding in action? Check out how top products guide their users:</p>
+  <HeaderLink href="https://www.useronboard.com/" target="_blank">
+    UserOnboard.com - Teardowns of Popular Products
+  </HeaderLink>
+</div>
 
-## More Links
+## 10. Giving Up Too Early (or Too Late)
 
-- [MDX Syntax Documentation](https://mdxjs.com/docs/what-is-mdx)
-- [Astro Usage Documentation](https://docs.astro.build/en/guides/markdown-content/#markdown-and-mdx-pages)
-- **Note:** [Client Directives](https://docs.astro.build/en/reference/directives-reference/#client-directives) are still required to create interactive components. Otherwise, all components in your MDX will render as static HTML (no JavaScript) by default.
+**The Mistake**: Quitting before giving the idea a fair chance, or persisting long past the point of no return.
+
+**The Fix**: Set clear milestones before you start:
+- "If we can't get 100 users in 3 months, we'll pivot"
+- "If retention is below X% after 6 iterations, we'll reconsider"
+
+Then honor those commitments. Emotional attachment to ideas kills startups.
+
+## The Meta-Mistake: Not Treating It as a Learning Exercise
+
+The purpose of an MVP isn't to build a perfect product. It's to learn as much as possible, as quickly as possible, with as little investment as possible.
+
+Every feature you build, every user you talk to, every metric you track should answer a question. If you're not learning, you're just building.
+
+## Conclusion
+
+Building an MVP is hard enough without repeating common mistakes. Learn from those who came before you:
+
+1. Validate before you build
+2. Keep it minimal—really minimal
+3. Track meaningful metrics
+4. Launch early and often
+5. Stay close to your users
+
+Your MVP is a learning vehicle. Optimize for learning, and success will follow.
